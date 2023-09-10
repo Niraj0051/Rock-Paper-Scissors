@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Rock Paper Scissors</h2>
+
+      <button class="rock" onclick="playGame('rock')">Rock</button>
+      <button class="paper" onclick="playGame('paper')">Paper</button>
+      <button class="scissors" onclick="playGame('scissors')">Scissors</button>
+      <p class="js-result"></p>
+      <p class="js-moves"></p>
+      <p class="js-score"></p>
+  
+      <button id="reset-score-button" class="reset-score-button" onclick="resetScore()">Reset Score</button>
+
+    </div>
+    <!-- <footer class="footer">
+      <div class="row">
+        Copyright © 2023 - All rights reserved || Designed By: Saniya, Niraj.
+        </div>
+    </footer> -->
+
+    <script src="Js/script.js"></script>
+  </body>
+</html>

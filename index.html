@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="CSS/style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 style="margin-bottom: 0px;">Rock Paper Scissors</h1>
+        <img src="Images/rps2.png" alt="Game img">
+        <!-- <button class="start">Start game</button> -->
+        <button class="glow-on-hover" id="mainBtn" type="button">Start game</button>
+    </div>
+
+    <script>
+        document.getElementById("mainBtn").addEventListener("click", redirectFunction);
+        
+        function redirectFunction(){
+            window.location.href = "rock paper scissor.html";
+        }
+    </script>
+</body>
+</html>
